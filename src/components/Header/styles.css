@@ -83,6 +83,13 @@
 .header--info {
     display: flex;
     align-items: center;
+    padding: 0 15px;
+}
+
+.header--info:hover {
+    background-color: #464747;
+    cursor: pointer;
+    border-radius: 30px;
 }
 
 .header--info > h4 {

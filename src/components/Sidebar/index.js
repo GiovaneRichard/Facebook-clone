@@ -3,8 +3,13 @@ import './styles.css';
 import SidebarRow from "../SidebarRow";
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import PeopleIcon from '@material-ui/icons/People';
-import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
+import { IconButton } from "@material-ui/core";
 import StorefrontIcon from '@material-ui/icons/Storefront';
+import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
+import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
+import RestoreIcon from '@material-ui/icons/Restore';
+import BookmarkIcon from '@material-ui/icons/Bookmark';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 export default () => {
 
@@ -20,10 +25,13 @@ export default () => {
 
             <SidebarRow Icon={PeopleIcon} title="Amigos" />
             <SidebarRow Icon={StorefrontIcon} title='Marketplace' />
-            {/* <SidebarRow Icon={} title='Watch' />
-            <SidebarRow Icon={} title='Grupos' />
-            <SidebarRow Icon={} title='Lembranças' />
-            <SidebarRow Icon={} title='Salvos' /> */}
+            <SidebarRow Icon={OndemandVideoIcon} title='Watch' />
+            <SidebarRow Icon={SupervisedUserCircleIcon} title='Grupos' />
+            <SidebarRow Icon={RestoreIcon} title='Lembranças' />
+            <SidebarRow Icon={BookmarkIcon} title='Salvos' />
+            <IconButton className="sidebar--buttom">
+                <ExpandMoreIcon />
+            </IconButton>
         </div>
     );
 }

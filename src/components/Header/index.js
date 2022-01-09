@@ -44,7 +44,7 @@ export default () => {
             <div className="header--right">
                 <div className="header--info">
                     <Avatar src="https://yt3.ggpht.com/yti/APfAmoHWDJUfU0O2HwRJ1UE5A6-aFnNEdPvi4Fjc8h47qQ=s88-c-k-c0x00ffffff-no-rj-mo" alt="Avatar" />
-                    <h4>Giovane Richard</h4>
+                    <h4>Giovane</h4>
                 </div>
 
                 <IconButton>
